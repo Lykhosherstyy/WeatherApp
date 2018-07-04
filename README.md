@@ -1,6 +1,6 @@
 # WeatherApp
 
-Instaltion
+Instalation
 ------------------
 
 1. Download project and unzip the folder 
