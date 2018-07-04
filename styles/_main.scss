@@ -1,0 +1,18 @@
+@import 'abstract/_variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  background-color: #eaeaea;
+}
+
+ul{
+  list-style: none;
+}

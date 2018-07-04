@@ -1,0 +1,28 @@
+.root{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.navList{
+  display: flex;
+  flex-flow: row wrap;
+  li{
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.link{
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.2s;
+  &.activeLink{
+    border-bottom: 1px solid #fff;
+    // box-shadow: 0px 0px 8px 0px rgb(46, 181, 183);
+  }
+}
+

@@ -1,0 +1,23 @@
+.root{
+  padding-bottom: 10px;
+}
+
+.inputGroup{
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.input{
+  flex: 1 0 auto;
+  width: 80%;
+  padding: 10px;
+  border:none;
+}
+.button{
+  flex: 0 0 auto;
+  padding: 5px;
+  cursor: pointer;
+  border:none;
+  background-color: #fff;
+}

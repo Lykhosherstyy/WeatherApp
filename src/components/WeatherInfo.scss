@@ -1,0 +1,56 @@
+.root{
+
+}
+.WeatherInfo{
+  padding: 0px 0 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.city{
+  margin-bottom: 2px; 
+  font-size: 32px;
+  font-weight: bold;
+}
+.date{
+  margin-bottom: 10px; 
+  font-size: 12px;
+}
+.icon{
+  
+}
+.temperature{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 72px;
+}
+.units{
+  font-size: 28px;
+}
+.tempMaxMin{
+  margin-bottom: 10px; 
+  font-size: 12px;
+}
+.description{
+  font-size: 16px;
+}
+
+.panel{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 5px;
+  border-top:1px solid rgba(0,0,0,0.1);
+  & > button{
+    flex: 1 50%;
+  }
+}
+
+.button{
+  padding: 15px 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor:pointer;
+  background-color: transparent;
+}
